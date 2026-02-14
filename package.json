@@ -1,0 +1,14 @@
+{
+  "name": "recipes-app",
+  "version": "1.0.0",
+  "description": "Tuscany-style recipe collection app",
+  "scripts": {
+    "install:all": "cd server && npm install && cd ../client && npm install",
+    "build:client": "cd client && npm run build",
+    "start": "cd server && node server.js",
+    "render:build": "npm run install:all && npm run build:client",
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "dev": "npm run dev:server & npm run dev:client"
+  }
+}
