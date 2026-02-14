@@ -1,0 +1,59 @@
+.search-bar {
+  width: 100%;
+  background-color: var(--color-white);
+  padding: 1.25rem;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  margin-bottom: 1.5rem;
+}
+
+.search-bar-row {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+  width: 100%;
+}
+
+.search-input-wrapper {
+  width: 100%;
+}
+
+.search-input {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.difficulty-select {
+  width: 100%;
+}
+
+.search-bar-categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.category-filter-pill {
+  padding: 0.3rem 0.75rem;
+  border: 2px solid var(--color-cream-dark);
+  border-radius: 999px;
+  background-color: transparent;
+  color: var(--color-text);
+  font-size: 0.85rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.category-filter-pill:hover {
+  border-color: var(--color-olive);
+  color: var(--color-olive);
+}
+
+.category-filter-pill.selected {
+  background-color: var(--color-olive);
+  border-color: var(--color-olive);
+  color: var(--color-white);
+}
+

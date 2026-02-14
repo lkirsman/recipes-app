@@ -1,0 +1,15 @@
+.edit-recipe-page .back-link {
+  display: inline-block;
+  margin-bottom: 0.75rem;
+  font-size: 0.95rem;
+  color: var(--color-terracotta);
+  font-weight: 600;
+}
+
+.edit-recipe-page .back-link:hover {
+  color: var(--color-terracotta-dark);
+}
+
+.edit-recipe-page h2 {
+  margin-bottom: 1.5rem;
+}
